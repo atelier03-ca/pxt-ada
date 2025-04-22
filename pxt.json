@@ -8,7 +8,6 @@
     },
     "files": [
         "ada.ts",
-        "test.ts",
         "README.md",
         "_locales/en/ada-strings.json",
         "_locales/en/ada-jsdoc-strings.json",
@@ -16,6 +15,9 @@
         "_locales/es/ada-jsdoc-strings.json",
         "_locales/fr/ada-strings.json",
         "_locales/fr/ada-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
     ],
     "public": true,
     "supportedTargets": [
