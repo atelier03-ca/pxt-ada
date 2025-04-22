@@ -16,7 +16,7 @@ Control the robot to move forward for 2 seconds, turn left for 1 second, and the
 
 ```blocks
 ada.forward(50, 2)
-ada.left(50, 1)
+ada.turnLeft(50, 1)
 ```
 
 Use the ultrasonic sensor to stop the robot when an object is within 20 cm.
