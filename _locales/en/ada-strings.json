@@ -8,9 +8,9 @@
   "ada.turnRight|block": "turn right at $speed power for $duration seconds",
   "ada.set_backwards|block": "backwards at $speed power",
   "ada.set_forward|block": "forward at $speed power",
-  "DistanceUnit.CM|block": "cm",
-  "DistanceUnit.INCHES|block": "inches",
-  "DistanceUnit.MICROSECONDS|block": "microseconds",
+  "DistanceUnit.Cm|block": "cm",
+  "DistanceUnit.Inches|block": "inches",
+  "DistanceUnit.Microseconds|block": "microseconds",
   "{id:category}ada": "ada",
   "{id:group}Motors": "Motors",
   "{id:group}Sensors": "Sensors"

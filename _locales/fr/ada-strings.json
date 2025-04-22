@@ -8,9 +8,9 @@
   "ada.turnRight|block": "tourner à droite à $speed de puissance| pendant $duration secondes",
   "ada.set_backwards|block": "reculer à $speed de puissance",
   "ada.set_forward|block": "avancer à $speed de puissance",
-  "DistanceUnit.CM|block": "cm",
-  "DistanceUnit.INCHES|block": "pouces",
-  "DistanceUnit.MICROSECONDS|block": "microsecondes",
+  "DistanceUnit.Cm|block": "cm",
+  "DistanceUnit.Inches|block": "pouces",
+  "DistanceUnit.Microseconds|block": "microsecondes",
   "{id:category}ada": "ada",
   "{id:group}Sensors": "Capteurs",
   "{id:group}Motors": "Moteurs"

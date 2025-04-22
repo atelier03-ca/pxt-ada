@@ -169,9 +169,9 @@ Read the current distance using an ultrasonic sensor.
 
 - Triggers the ultrasonic sensor and returns the measured distance.
 - Units:
-    - `DistanceUnit.CM`: Distance in centimeters
-    - `DistanceUnit.INCHES`: Distance in inches
-    - `DistanceUnit.MICROSECONDS`: Raw echo time (for custom calculations)
+    - `DistanceUnit.Cm`: Distance in centimeters
+    - `DistanceUnit.Inches`: Distance in inches
+    - `DistanceUnit.Microseconds`: Raw echo time (for custom calculations)
 
 <br/>
 

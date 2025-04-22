@@ -1,17 +1,17 @@
     
 enum UltrasoundPins {
-    TRIG = DigitalPin.P15,
-    ECHO = DigitalPin.P14
+    Trig = DigitalPin.P15,
+    Echo = DigitalPin.P14
 } 
 
 //% emitAsConstant
 enum DistanceUnit {
     //% block="cm"
-    CM = 0,
+    Cm = 0,
     //% block="inches"
-    INCHES = 1,
+    Inches = 1,
     //% block="microseconds"
-    MICROSECONDS = 2
+    Microseconds = 2
 }
 
 //% color="#ee7521" weight=100 icon="\uf013" block="ada"
@@ -193,19 +193,19 @@ namespace ada
     export function readDistance(unit: DistanceUnit): number {
 
         // Set trigger to HIGH for 10 microseconds
-        pins.digitalWritePin(UltrasoundPins.TRIG, 1);
+        pins.digitalWritePin(UltrasoundPins.Trig, 1);
         control.waitMicros(10);
 
-        pins.digitalWritePin(UltrasoundPins.TRIG, 0);
+        pins.digitalWritePin(UltrasoundPins.Trig, 0);
 
         // Read echo pin, return distance in cm
-        const duration = pins.pulseIn(UltrasoundPins.ECHO, PulseValue.High);
+        const duration = pins.pulseIn(UltrasoundPins.Echo, PulseValue.High);
         switch (unit) {
-            case DistanceUnit.CM:
+            case DistanceUnit.Cm:
                 return Math.floor(duration * 0.034 / 2);
-            case DistanceUnit.INCHES:
+            case DistanceUnit.Inches:
                 return Math.floor(duration * 0.0133 / 2);
-            case DistanceUnit.MICROSECONDS:
+            case DistanceUnit.Microseconds:
                 return duration;
             default:
                 return 0;
