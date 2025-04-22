@@ -74,7 +74,7 @@ Drive both motors backward at a specified power for a set time.
 ---
 
 ```sig
-ada.left(speed: number, duration: number);
+ada.turnLeft(speed: number, duration: number);
 ```
 
 Turn both motors left at a specified power for a set time.
@@ -89,7 +89,7 @@ Turn both motors left at a specified power for a set time.
 ---
 
 ```sig
-ada.right(speed: number, duration: number);
+ada.turnRight(speed: number, duration: number);
 ```
 
 
