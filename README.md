@@ -26,7 +26,7 @@ Use the ultrasonic sensor to stop the robot when an object is within 20 cm.
 
 ```blocks
 basic.forever(() => {
-    if (ada.readDistance(DistanceUnit.CM) < 20) {
+    if (ada.readDistance(DistanceUnit.Cm) < 20) {
         ada.brake()
     } else {
         ada.forward(50, 1)
