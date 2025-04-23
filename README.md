@@ -26,7 +26,7 @@ Use the ultrasonic sensor to stop the robot when an object is within 20 cm.
 
 ```blocks
 basic.forever(() => {
-    if (ada.read_distance(DistanceUnit.CM) < 20) {
+    if (ada.readDistance(DistanceUnit.CM) < 20) {
         ada.brake()
     } else {
         ada.forward(50, 1)
@@ -119,7 +119,7 @@ ada.brake();
 ---
 
 ```sig
-ada.set_forward(50);
+ada.setForward(50);
 ```
 
 *(Advanced)* Drive both motors forward at a specified power **without timing** (runs until manually stopped).
@@ -131,7 +131,7 @@ ada.set_forward(50);
 ---
 
 ```sig
-ada.set_backwards(50);
+ada.setBackwards(50);
 ```
 
 *(Advanced)* Drive both motors backward at a specified power **without timing** (runs until manually stopped).
@@ -161,7 +161,7 @@ ada.freeroam(50, 50);
 ### Sensors
 
 ```sig
-ada.read_distance(DistanceUnit.CM);
+ada.readDistance(DistanceUnit.CM);
 ```
 
 Read the current distance using an ultrasonic sensor.
