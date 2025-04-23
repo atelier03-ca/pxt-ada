@@ -4,7 +4,6 @@ enum UltrasoundPins {
     Echo = DigitalPin.P14
 } 
 
-//% emitAsConstant
 enum DistanceUnit {
     //% block="cm"
     Cm = 0,

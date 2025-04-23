@@ -1,17 +1,17 @@
 {
-    "ada.backwards|block": "retroceder a potencia $speed durante $duration segundos",
-    "ada.brake|block": "detener los motores",
-    "ada.forward|block": "avanzar a potencia $speed durante $duration segundos",
-    "ada.freeroam|block": "motor izquierdo a $left y motor derecho a $right",
-    "ada.turnLeft|block": "girar a la izquierda a potencia $speed durante $duration segundos",
-    "ada.readDistance|block": "distancia en $unit",
-    "ada.turnRight|block": "girar a la derecha a potencia $speed durante $duration segundos",
-    "ada.setBackwards|block": "retroceder a potencia $speed",
-    "ada.setForward|block": "avanzar a potencia $speed",
-    "DistanceUnit.Cm|block": "cm",
-    "DistanceUnit.Inches|block": "pulgadas",
-    "DistanceUnit.Microseconds|block": "microsegundos",
-    "{id:category}ada": "ada",
-    "{id:group}Sensors": "Sensores",
-    "{id:group}Motors": "Motores"
-  }
+  "ada.backwards|block": "retroceder a potencia $speed durante $duration segundos",
+  "ada.brake|block": "detener los motores",
+  "ada.forward|block": "avanzar a potencia $speed durante $duration segundos",
+  "ada.freeroam|block": "motor izquierdo a $left y motor derecho a $right",
+  "ada.turnLeft|block": "girar a la izquierda a potencia $speed durante $duration segundos",
+  "ada.readDistance|block": "distancia en $unit",
+  "ada.turnRight|block": "girar a la derecha a potencia $speed durante $duration segundos",
+  "ada.setBackwards|block": "retroceder a potencia $speed",
+  "ada.setForward|block": "avanzar a potencia $speed",
+  "DistanceUnit.Cm|block": "cm",
+  "DistanceUnit.Inches|block": "pulgadas",
+  "DistanceUnit.Microseconds|block": "microsegundos",
+  "{id:category}ada": "ada",
+  "{id:group}Sensors": "Sensores",
+  "{id:group}Motors": "Motores"
+}
