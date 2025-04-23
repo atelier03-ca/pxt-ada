@@ -161,7 +161,7 @@ ada.freeroam(50, 50);
 ### Sensors
 
 ```sig
-ada.readDistance(DistanceUnit.CM);
+ada.readDistance(DistanceUnit.Cm);
 ```
 
 Read the current distance using an ultrasonic sensor.
