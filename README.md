@@ -1,6 +1,9 @@
 # pxt-ada
 
-Extension for [MakeCode](https://makecode.com/) to program our robot named *Ada* using the [micro:bit](https://microbit.org/) and the [Motorbit from Elecfreaks](https://www.elecfreaks.com/learn-en/microbitKit/motor_bit_smart_car/motor_bit_v16.html).
+Extension for [MakeCode](https://makecode.com/) to program our robot named *Ada* during [our workshops](https://atelier03.ca/en/workshops/robot-microbit) using the [micro:bit](https://microbit.org/) and the [Motorbit from Elecfreaks](https://www.elecfreaks.com/learn-en/microbitKit/motor_bit_smart_car/motor_bit_v16.html).
+
+
+> The *Ada* robot is not currently available for sale. We do plan on making the robot or a robot kit available in the future, if interesed, you can be notified through our [newsletter](https://atelier03.ca/en?c=ada#newsletter).
 
 <p align="center">
     <img src="./static/libs/thumbnail.webp" alt="Ada and Laptop" width="50%">
