@@ -16,7 +16,7 @@ input.onButtonPressed(Button.B, () => {
 
 // Test distance
 basic.forever(() => {
-    let distance = ada.readDistance(DistanceUnit.Cm);
+    let distance = ada.readDistance(ada.DistanceUnit.Cm);
     serial.writeNumber(distance);
     basic.pause(10);
 })
